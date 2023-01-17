@@ -1,0 +1,46 @@
+/* Write your code here. */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #0f172a;
+  font-family: "Roboto";
+  text-align: center;
+}
+.smallBox {
+  background-color: #fbbf24;
+  height: 100px;
+  width: 100px;
+  margin: 15px;
+}
+.mediumBox {
+  background-color: #38bdf8;
+  height: 200px;
+  width: 200px;
+  margin: 15px;
+}
+.largeBox {
+  background-color: #ec4899;
+  height: 300px;
+  width: 300px;
+  margin: 15px;
+}
+.box-description {
+  font-family: "Bree Serif";
+  padding: 20px;
+  text-align: center;
+  margin: 15px;
+  color: #ffffff;
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  .boxes-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
